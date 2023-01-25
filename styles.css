@@ -1,0 +1,688 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400px;
+    font-family: raleway;
+    box-sizing: border-box;
+
+    
+}
+
+body
+{
+    /* overflow: hidden; */
+
+    background-image: url("images/desert.svg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    display: flex;
+
+}
+p{
+    font-size: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+}
+/* -------------menu----------- */
+#menu-barre
+{
+    width: 7cm;
+    height: 12cm;
+    position:absolute;
+    filter: 10px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    background: #0201017c;
+    align-items: center;
+    -webkit-filter: 10px;
+    z-index: 3;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    right: -7cm;
+    
+}
+#pages
+{
+    width: 4cm;
+    height: 10cm;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+
+}
+#menu-barre span
+{
+    color: rgba(255, 255, 255, 0.548);
+    font-size: 33px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 1em;
+    
+}
+#pages a
+{
+    margin: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+/*----------------header-------------*/
+#background-main
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.804);
+    margin-top: 20px;
+    margin: 0;
+}
+
+header #main-image
+
+{
+    width:100% ;
+    height: 20cm;
+    background-image: linear-gradient(315deg, rgba(255, 0, 238, 0.597), rgba(149, 255, 0, 0.701)), url(images/sahara-reduit.gif) ;
+    background-size: cover;
+    display:flex ;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5cm;
+}
+
+nav #barre-de-nav
+{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: raleway;
+    position: fixed;
+    z-index: 2;
+}
+#left
+{
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+    transition: 0.2s ease;
+    padding: 1em;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+#left:hover
+{
+    color: white;
+    font-size: 23px;
+    text-shadow: 2px 2px 9px rgb(255, 7, 156);
+}
+
+#right
+{
+    font-weight: bold;
+    color: rgb(155, 155, 155);
+    font-size: 20px;
+    padding: 1em;
+    transition: 0.2s ease;
+}
+#right:hover
+{
+    color: white;
+    font-size: 23px;
+    text-shadow: 2px 2px 9px rgb(255, 7, 156);
+}
+
+
+#main-image .intro
+{
+    width: 20cm;
+    height: auto;
+    margin: 3cm auto;
+    text-transform: capitalize;
+    text-align: center;
+    max-width: 25cm;
+    justify-content: center;
+    color: rgb(203, 202, 202);
+
+
+}
+
+.intro h1
+{
+    font-family:raleway;
+    text-transform: uppercase;
+    font-size: 59px;
+    line-height: 70px;
+    padding-bottom:15px ;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.intro h1:hover
+{
+    color: white ;
+    text-shadow: 0 1px 3px;
+    
+}
+h5{
+    font-family: raleway;
+    font-size: 22px;
+    line-height: 36px;
+}
+h5 a
+{
+   color: rgb(0, 0, 0); 
+   font-size:26px ;
+   line-height: 43px;
+}
+
+
+/*-------------section1--------*/
+
+
+
+#boxes-section
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    max-width: 40cm;
+
+ 
+}
+#boxes-section .intro
+{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 3cm auto;
+    flex-wrap: wrap;
+    max-width: 20cm;
+
+
+}
+#boxes-section .intro h3
+{
+    font-size: 33px;
+    line-height: 43px;
+    padding-bottom: 20px;
+    text-transform:uppercase;
+    font-family: raleway;
+    
+}
+#boxes-section .intro p
+{
+    font-size: 15px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55, 55, 55);
+}
+#boxes-section .boxe-container
+{
+    
+    margin:0 auto;
+    height: 80%;
+    width:100%;
+    max-width: 30cm;
+    flex-wrap:wrap;
+    box-sizing: inherit;
+    display:flex;
+    justify-content: center;
+
+
+    
+}
+.boxe
+{
+    height: 10cm;
+    width: 8cm;
+    fill: rgb(166, 63, 127);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    display: block;
+    position: relative;
+
+}
+.boxe:hover
+{
+    box-shadow: 2px 2px 10px 0;
+}
+.boxe svg
+{
+    width: 20%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    transition: 0.3s;
+    stroke: 5px #020101;
+
+}
+.boxe svg:hover
+{
+    filter: drop-shadow(0 1px 3px #131010);
+    fill: white;
+}
+.boxe h5
+{
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 5%;
+}
+.boxe p
+{
+    font-size: 15px;
+    line-height: 24px;
+
+}
+/*----------------section2-----------*/
+#scrolimage-section
+{
+    background-image:linear-gradient( rgba(170, 4, 98, 0.49),rgb(106, 76, 0)), url(images/Mergouza-Maroc-Sahara-desertsahara-voyage-blog-blogvoyage-desert-icietlabas-69.jpg);
+    height: 15cm;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    margin: 2cm 0;
+}
+
+
+#scrolimage-section .intro
+{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4cm ;
+    max-width: 30cm;
+    align-items: center;
+}
+
+#scrolimage-section .intro h3
+{
+    font-size: 30px;
+    padding-bottom: 1cm ;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+#scrolimage-section .intro p
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+/*----------------section3-----------*/
+
+#review-section .intro
+{
+
+    height: 2cm;
+    margin: 2cm auto;
+    text-align: center;
+    max-width: 20cm;
+   
+}
+#review-section .intro h3
+{
+    
+    font-size: 33px;
+    font-family: raleway;
+    line-height: 43px;
+    padding-bottom: 1cm;
+}
+
+#review-section .intro p
+{
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(81, 81, 81);
+    font-weight: bolder;
+}
+
+#review-container
+{
+    width:30cm;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1cm auto;
+}
+
+.review
+{
+    position: relative;
+    background-color: rgba(223, 198, 188, 0.705);
+    width: 6cm;
+    height: 7cm;
+    padding: 10px;
+    margin: 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    transition:  0.3s;
+    -webkit-transition:  0.3s;
+    -moz-transition:  0.3s;
+    -ms-transition:  0.3s;
+    -o-transition:  0.3s;
+    color: rgb(94, 94, 94);
+    font-weight: bolder;
+}
+
+.review:hover
+{
+    
+    box-shadow: 2px 2px 10px 2px;
+}
+.review svg
+{
+    fill: rgb(138, 133, 96);
+    width: 1cm;
+    height: 1cm;
+    position: relative;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-color: #fef0e3;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#review-container .id-container
+{
+    width: 100%;
+    height: 20%;
+    margin-top:40px ;
+    margin: 20px;
+    text-transform: capitalize;
+}
+.review svg:hover
+{
+    transform: rotate(360deg) ;
+    -webkit-transform: rotate(360deg) ;
+    -moz-transform: rotate(360deg) ;
+    -ms-transform: rotate(360deg) ;
+    -o-transform: rotate(360deg) ;
+}
+#review-container .id-container.clara::after
+{
+    content: "clara";
+    margin-left: 10px;
+    vertical-align: 10px;
+    font-size: 15px;
+}
+#review-container .id-container.bernardo::after
+{
+    content: "Bernardo";
+    margin-left: 10px;
+    vertical-align: 10px;
+    font-size: 15px;
+}
+#review-container .id-container.momo::after
+{
+    content: "momo";
+    margin-left: 10px;
+    vertical-align: 10px;
+    font-size: 15px;
+}
+
+
+.text-box
+{
+    width: 90%;
+    height:50%;
+    margin: 10px auto 0 0;
+    margin-bottom: 1rem;
+    padding-left: 12px;
+    display: flex;
+
+}
+.text-box::before
+{
+    content: "‟";
+    font-size: 40px;
+    color: rgb(47, 47, 47);
+    vertical-align: 10px;
+    padding-right: 10px;
+    
+}
+.text-box::after
+{
+    content: "‟";
+    font-size: 40px;
+    color: rgb(48, 48, 48);
+    font-size: 40px;
+    rotate: 180deg;
+}
+.identity
+{
+    position: relative;
+
+}
+
+
+/*-------------footer-----------*/
+
+#foot
+{
+    width: 100% ;
+    height: 15cm;
+    min-height: 20%;
+    background-color: rgb(22, 22, 22);
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+#footer
+{
+    max-width: 20%;
+    min-width: 100%;
+    max-height: 100%;
+    width: 30cm;
+    height: 20cm;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(207, 207, 207);
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-text
+{
+    
+    font-family: raleway;
+    width: 15cm;
+    height: 10cm;
+    margin-right: 2cm;
+    max-width: 100%;
+    position: relative;
+
+
+
+}
+#foot h5
+{
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 2rem;
+}
+#foot p
+{
+    font-size: 16px;
+    font-weight: 26px;
+}
+#footerTAB
+{
+    width: 10cm;
+    padding-left: 0;
+    padding-right: 1cm;
+    max-width: 80%;
+    height: 10cm;
+    flex-direction: column;
+    display: flex;
+
+}
+
+#footerTAB h5
+{
+    font-size: 16px;
+    line-height: 24px;
+}
+.link
+{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+.link.o1
+{
+    border-bottom: 2px solid rgb(8, 208, 191);
+}
+.link.o2
+{
+    border-bottom: 2px solid rgb(195, 4, 93)
+}
+.link.o3
+{
+    border-bottom: 2px solid rgb(45, 208, 8)
+}
+.link.o4
+{
+    border-bottom: 2px solid rgb(174, 61, 255);
+}
+.link:hover
+{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.link.o1:hover
+{
+    color: rgb(8, 208, 191);
+}
+.link.o2:hover
+{
+    color: rgb(255, 88, 166)
+}
+.link.o3:hover
+{
+    color: rgb(45, 208, 8)
+}
+.link.o4:hover
+{
+    color: rgb(175, 63, 255)
+}
+
+#share-box
+{
+    width: 6cm;
+    height: 10cm;
+    flex-direction: column;
+    width: 5cm ;
+}
+#share-box a
+{
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+}
+#share-box a:hover
+{
+    color: rgb(255, 69, 69);
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
+}
+#foot span
+{
+    padding-left: 10%;
+    top: -15px;
+
+}
+#foot svg
+{
+    fill: rgb(255, 70, 70);
+    background-color: black;
+    width: 1cm;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+@media screen and (max-width: 840px) {
+    .intro h1
+    {
+        font-size: 1cm;
+    }
+    h5{
+        font-size: 18px;
+        margin: 1em;
+    }
+    h5 a {
+        font-size: 20px;
+    }
+    .boxe{
+        width: 8cm;
+        height: 8cm;
+        margin: 1cm;
+    }
+    .boxe svg {
+        width: 16%;
+    }
+    #scrolimage-section .intro h3{
+        font-size: 24px;
+        margin: 1em;
+    }
+    #scrolimage-section .intro p{
+        font-size: 16px;
+        margin: 1em;
+    }
+    .intro p{
+        font-size: 10px;
+    }
+
+    #review-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
