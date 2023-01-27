@@ -51,8 +51,9 @@ a
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    right: -7cm;
-    
+right: -7cm;
+
+
 }
 #pages
 {
@@ -88,6 +89,8 @@ a
     background-color: rgba(255, 255, 255, 0.804);
     margin-top: 20px;
     margin: 0;
+    
+    overflow: hidden;
 }
 
 header #main-image
